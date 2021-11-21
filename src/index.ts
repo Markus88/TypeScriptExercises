@@ -1,3 +1,4 @@
+// https://www.codewars.com/kata/5264d2b162488dc400000001/train/typescript
 export class Kata {
   static spinWords(words: string): string {
     var reversedWord = "";
