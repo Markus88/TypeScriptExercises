@@ -10,7 +10,7 @@ export class Kata {
       indexOfArray++
     ) {
       const element = stringSplittedUpIntoArray[indexOfArray];
-      if (element.length > 5) {
+      if (element.length >= 5) {
         for (let index = element.length - 1; index >= 0; index--) {
           reversedWord += element[index];
         }
